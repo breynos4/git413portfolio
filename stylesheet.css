@@ -1,0 +1,212 @@
+:root {
+    --pink: #f386a9;
+    --dark-pink: #a61e44;
+    --off-white: #faf9f6;
+    --blue: #8197cd;
+    --dark-blue: #3b56a6;
+}
+p, h1, h2, h3, h4, nav {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+body {
+    width: 1280px;
+    background-color: var(--off-white);
+    margin: 0 auto;
+}
+nav {
+    width: 1280px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.focus {
+    color: var(--dark-blue);
+}
+nav a:hover {
+    color: var(--dark-blue);
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 20px;
+}
+h1 {
+    font-size: 50px;
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: -20px;
+    font-weight: 800;
+}
+p {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+#animeexpo, #puipuimolcar, #animalcrossing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 75px;
+}
+#animeexpo svg {
+    display: block;
+    width: 15%;
+    margin-bottom: -35px;
+    margin-left: 25px;
+}
+#animeexpo h3 {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -15px;
+}
+#animeexpo img {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+#puipuimolcar svg {
+    display: block;
+    width: 15%;
+    margin-bottom: -35px;
+    margin-left: 25px;
+}
+#puipuimolcar h3 {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -15px;
+}
+#puipuimolcar img {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+#animalcrossing svg {
+    display: block;
+    width: 15%;
+    margin-bottom: -35px;
+    margin-left: 25px;
+}
+#animalcrossing h3 {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -15px;
+}
+#animalcrossing img {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+button {
+    background-color: var(--pink);
+    border: 2px solid var(--dark-pink);
+    border-radius: 4px;
+    margin-left: 50px;
+}
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+button a:hover {
+    color: white;
+}
+footer {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+footer div {
+    display: flex;
+}
+footer svg {
+    width: 5%;
+}
+/* END OF HOME PAGE */
+#about h3 {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+#contact h3 {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+#about li {
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+/* ABOUT ME COMPLETE */
+#axfirst {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#aximg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#aximg img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+/* end of solo ax page */
+#puipuiimg {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#website {
+    background-color: var(--blue);
+    border: 2px solid var(--dark-blue);
+    margin-bottom: 25px;
+}
+#link {
+    color: white;
+}
+#link:hover {
+    color: black;
+}
+/* END OF PUI PUI PAGE */
+#acimg {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
